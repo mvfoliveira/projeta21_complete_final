@@ -1,0 +1,39 @@
+<div class="container d-flex align-items-center justify-content-center my-5">
+    <div class="form-container">
+      <form (submit)="onSubmit()">
+        <div class="form-group">
+          <label for="nome">Nom:</label>
+          <input type="text" id="nom" name="nom" [(ngModel)]="utilisateur.nom" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="prenom">Prenom:</label>
+          <input type="text" id="prenom" name="prenom" [(ngModel)]="utilisateur.prenom" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="adresse">Adresse:</label>
+          <input type="text" id="adresse" name="adresse" [(ngModel)]="utilisateur.adresse" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="telefone">Telephone:</label>
+          <input type="text" id="telephone" name="telephone" placeholder="123-456-7890" [(ngModel)]="utilisateur.telephone" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="email@mail.com" [(ngModel)]="utilisateur.email" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="motdepasse">Mot de Passe:</label>
+          <input  type="password" id="motdepasse" name="motdepasse" [(ngModel)]="utilisateur.motdepasse" required class="form-control">
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary">Créer compte</button>
+        </div>
+        <div class="form-group" *ngIf="msg">
+            <div [ngClass]="{'alert alert-success': !msg.includes('Erreur'), 'alert alert-danger': msg.includes('Erreur')}">
+              {{ msg }}
+            </div>
+          </div>
+      </form>
+    </div>
+  </div>
+  

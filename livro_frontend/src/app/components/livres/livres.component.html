@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+    
+    <ng-container *ngFor="let livre of livres; let i = index">
+      <div class="col-md-3">
+        <br><br>  <div class="card" style="width: 15rem">
+          <img src="{{livre.image}}" class="card-img-top" alt="{{ livre.titre }}">
+          <div class="card-body">
+            <h5 class="card-title">{{ livre.titre }}</h5>
+            <p class="card-text">
+            
+             
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"> <strong>Autor:</strong> {{ livre.auteur }}<br></li>
+            <li class="list-group-item"> <strong>Descrição:</strong> {{ livre.description }}<br></li>
+            <li class="list-group-item"><a [routerLink]="['/livredetails', livre.code]" class="btn btn-primary">Details</a></li>
+            <li class="list-group-item"></li>
+          </ul>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>

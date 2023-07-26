@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a3fc14f-0e5c-4105-9307-323eacce1d1b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Livro_Catalog_Service/Modele/prixquantite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Livro_service_user/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Livro_service_user/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Livro_service_user/Livro_service_user.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Livro_service_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Livro_service_user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Livro_service_user/src/main/java/User_Service/Controller/UtilisateurController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Livro_service_user/src/main/java/User_Service/Controller/UtilisateurController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Livro_service_user/src/main/java/User_Service/Modele/Utilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Livro_service_user/src/main/java/User_Service/Modele/Utilisateur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Livro_service_user/src/main/java/User_Service/Repository/UtilisateurRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Livro_service_user/src/main/java/User_Service/Repository/UtilisateurRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Livro_service_user/src/main/java/User_Service/Service/UtilisateurService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Livro_service_user/src/main/java/User_Service/Service/UtilisateurService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Livro_service_user/target/classes/User_Service/Controller/UtilisateurController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Livro_service_user/target/classes/User_Service/Controller/UtilisateurController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Livro_service_user/target/classes/User_Service/Repository/UtilisateurRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Livro_service_user/target/classes/User_Service/Repository/UtilisateurRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Livro_service_user/target/classes/User_Service/Service/UtilisateurService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Livro_service_user/target/classes/User_Service/Service/UtilisateurService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../livro_frontend/dist/livro_frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../livro_frontend/dist/livro_frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../livro_frontend/dist/livro_frontend/main.07c9ab1805b34b70.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../livro_frontend/src/app/services/livres.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../livro_frontend/src/app/services/livres.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projetfinal_apigateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../projetfinal_apigateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projetfinal_apigateway/src/main/java/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projetfinal_apigateway/src/main/java/config/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../projetfinal_apigateway/src/main/java/config/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projetfinal_apigateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../projetfinal_apigateway/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projetfinal_apigateway/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../projetfinal_apigateway/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projetfinal_apigateway/target/classes/config/CorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projetfinal_apigateway/target/classes/config/GatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../projetfinal_apigateway/target/classes/config/GatewayApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Livro_Catalog_Service/Controller/ProduitLivreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Livro_Catalog_Service/Controller/ProduitLivreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Livro_Catalog_Service/Modele/ProduitLivre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Livro_Catalog_Service/Modele/ProduitLivre.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2SfB7tXyKJMoFPxVwd7fNDCx8gW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/collegebois/PROJET_FINAL_A21/untitled/src/main/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1db1087397e0f32908a4ac993158b0da&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\collegebois\PROJET_FINAL_A21\untitled\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="LivroCatalogServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Livro_Catalog_Service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="Livro_Catalog_Service.LivroCatalogServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a3fc14f-0e5c-4105-9307-323eacce1d1b" name="Changes" comment="" />
+      <created>1689527596201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689527596201</updated>
+      <workItem from="1689527597980" duration="554000" />
+      <workItem from="1689530760047" duration="5968000" />
+      <workItem from="1689719749943" duration="12000" />
+      <workItem from="1689720145503" duration="1002000" />
+      <workItem from="1690113607650" duration="12553000" />
+      <workItem from="1690305405129" duration="1815000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
