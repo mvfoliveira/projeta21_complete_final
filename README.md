@@ -23,6 +23,9 @@ Livro est une application web de librairie en ligne, construite en utilisant le 
 
 ## Architecture de l'application
 
+![Schéma d'architecture](https://github.com/mvfoliveira/projeta21_complete_final/blob/main/images/arch.svg)
+
+
 ### Backend
 L'architecture du système Livro est basée sur l'architecture des microservices. Ainsi, l'application est divisée en services indépendants. Pour Livro, il y a deux principaux microservices : Livres et User. Ces services sont chacun construits avec Spring Boot et ils communiquent avec le frontend via une passerelle API construite avec Spring Gateway.
 
