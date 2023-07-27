@@ -90,9 +90,7 @@ Pour installer et configurer ce projet localement, suivez les étapes suivantes 
 
 2. Clonez le dépôt Git sur votre machine locale en utilisant la commande `git clone`.
 
-3. Dans le répertoire du backend du projet, ex
-
-écutez la commande `mvn clean install` pour installer les dépendances du projet.
+3. Dans le répertoire du backend du projet, exécutez la commande `mvn clean install` pour installer les dépendances du projet.
 
 4. Dans le répertoire du frontend, exécutez la commande `npm install` pour installer les dépendances du projet.
 
