@@ -70,7 +70,9 @@ Chaque microservice possède sa propre base de données afin d'assurer l'isolati
 
 L'API Gateway, construite en utilisant Spring Gateway, est un point d'entrée unique pour le frontend pour accéder aux microservices. Elle achemine les requêtes du frontend vers le microservice approprié et renvoie les réponses au frontend.
 
+
 ![Diagramme de séquence](https://github.com/mvfoliveira/projeta21_complete_final/blob/main/images/sequ.svg)
+
 
 ## Endpoints de l'API
 
