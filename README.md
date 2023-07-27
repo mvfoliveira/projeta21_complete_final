@@ -104,7 +104,7 @@ Une fois que vous avez correctement installé le projet, vous pouvez l'exécuter
 4. Ouvrez votre navigateur et allez à `http://localhost:4200` pour voir l'application en action.
 
 ## Auteurs
-- Marcos Oliviera
+- Marcos Olveira
 - Hassan Yaghi
 - Jamila El Kerbani
 - Zakia Katem
