@@ -1,0 +1,40 @@
+  spring:
+    cloud:
+      gateway:
+        routes:
+          - id: livre-service-listall
+            uri: http://localhost:8081/
+            #           uri: https://livrocatalog.fly.dev/
+            predicates:
+              - Path=/livres
+            filters:
+              - StripPrefix=1
+
+          - id: livre-service-getbyid
+            uri: http://localhost:8081/livres/livreById/{id}
+            #           uri: https://livrocatalog.fly.dev/
+            predicates:
+              - Path=/livres/livreById/{id}
+
+          - id: livre-utilisateur-listall
+            uri: http://localhost:8082/utilisateurs
+            #           uri: https://livrocatalog.fly.dev/
+            predicates:
+              - Path=/utilisateurs
+          - id: livre-utilisateur-post
+            uri: http://localhost:8082
+            predicates:
+              - Path=/utilisateurs/ajouterutilisateur
+              - Method=POST,OPTIONS
+          - id: livre-utilisateur-login
+            uri: http://localhost:8082
+            predicates:
+              - Path=/utilisateurs/login
+              - Method=POST,OPTIONS
+
+
+  logging:
+    level:
+      org.springframework.cloud.gateway: DEBUG
+      reactor.netty.http.server: DEBUG
+

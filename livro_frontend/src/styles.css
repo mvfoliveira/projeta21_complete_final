@@ -1,1 +1,52 @@
+
 /* You can add global styles to this file, and also import other style files */
+
+
+
+
+#banniere{
+    background-image: url('assets/images/daria-nepriakhina-xY55bL5mZAM-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.center{
+    
+    color: aliceblue;
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+   
+   
+}
+div.center{
+    margin-right: 0%;
+    min-width: 33%;
+    display: flex;
+    padding-right: 0%;
+    min-height: 500px;
+}
+span {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 100px;
+    margin: auto;
+
+}
+
+.container {  display: grid;
+   
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      "image-1 image-2 ."
+      ". . .";
+  }
+  
+  .image-1 { grid-area: image-1; }
+  
+  .image-2 { grid-area: image-2; }
+  

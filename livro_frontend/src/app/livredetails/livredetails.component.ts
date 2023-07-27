@@ -30,7 +30,7 @@ export class LivredetailsComponent implements OnInit {
   
   addToCart(): void {
     this.cartService.addToCart(this.livre); 
-    console.log('Livro adicionado ao carrinho:', this.livre); 
+    console.log('Livre ajouté au panier:', this.livre); 
 
 
   }

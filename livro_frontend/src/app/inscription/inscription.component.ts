@@ -44,7 +44,7 @@ export class InscriptionComponent {
       console.log(this.utilisateur);
     }
     else if (!emailPattern.test(this.utilisateur.email)) {
-      this.msg = "L'email n'attend pas aus requisites, email@email.com";
+      this.msg = "Veuillez remplir les informations correctement ";
     }
 
   }

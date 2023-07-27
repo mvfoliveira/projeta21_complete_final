@@ -1,22 +1,23 @@
-<div class="container">
-  <div class="row">
+<div class="container" >
+  <div class="row" style="padding-top: 10%">
     
     <ng-container *ngFor="let livre of livres; let i = index">
-      <div class="col-md-3">
-        <br><br>  <div class="card" style="width: 15rem">
-          <img src="{{livre.image}}" class="card-img-top" alt="{{ livre.titre }}">
-          <div class="card-body">
-            <h5 class="card-title">{{ livre.titre }}</h5>
+      <div class="col-md-3" style="padding-bottom:5%">
+          <div class="card" >
+          
+          <img src=".././assets/images/{{livre.image}}"  style="max-height: 350px;" class="card-img-top" alt="{{ livre.titre }}">
+          <div class="card-body" >
+            <h5 class="card-title" style="color: #abae5b; font-size : 19px; font-family:Georgia, 'Times New Roman', Times, serif">{{ livre.titre }}</h5>
             <p class="card-text">
-            
-             
+        
             </p>
           </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item"> <strong>Autor:</strong> {{ livre.auteur }}<br></li>
-            <li class="list-group-item"> <strong>Descrição:</strong> {{ livre.description }}<br></li>
-            <li class="list-group-item"><a [routerLink]="['/livredetails', livre.code]" class="btn btn-primary">Details</a></li>
-            <li class="list-group-item"></li>
+          <ul class="list-group list-group-flush" style=" font-size : 14px; font-family:Georgia, 'Times New Roman', Times, serif">
+            <li class="list-group-item" style="border: none;"> <strong >Auteur:</strong> {{ livre.auteur }}<br></li>
+            <!-- <li class="list-group-item"> <strong>Descrição:</strong> {{ livre.description }}<br></li> -->
+            <li class="list-group-item" style="border: none;"> <strong >Prix: </strong> {{ livre.prixQuantite.prix  }}<strong> $</strong><br></li>
+            <li class="list-group-item" style="border: none; text-align:right; "><a [routerLink]="['/livredetails', livre.code]" class="btn btn-primary" style="background-color:#abae5b; border:#abae5b">Details</a></li>
+            <li class="list-group-item" style="border: none;"></li>
           </ul>
         </div>
       </div>
