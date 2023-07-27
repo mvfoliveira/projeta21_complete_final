@@ -82,9 +82,6 @@ Voici une liste des principaux endpoints de l'API :
 - `GET /livres/{id}` : Retourne les détails d'un livre spécifique.
 - `POST /utilisateurs/ajouterutilisateur` : Crée un nouvel utilisateur.
 - `POST /login` : Authentifie un utilisateur existant.
-- `POST /cart` : Ajoute un livre au panier d'un utilisateur.
-- `DELETE /cart/{id}` : Supprime un livre du panier d'un utilisateur.
-- `GET /cart` : Retourne la liste des livres dans le panier d'un utilisateur.
 
 ## Installation
 Pour installer et configurer ce projet localement, suivez les étapes suivantes :
